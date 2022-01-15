@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>curriculum</title>
+<meta name="description" content="Roughly 155 characters">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--
+ * Bootstrap Grid v5.0.1 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */-->
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+    <div class="encabezado">
+        <header> 
+            <div class="nombre_negativo">
+                <p id="nombre_negativo">nombre</p>
+            </div>
+            <div class="botones_portada">
+                <a title="redes" href="https://img.search.brave.com/F7GiqFHLCNZbuwZtw29wYwYqBxNC_MEFyS0MNzXWFA4/fit/541/530/ce/1/aHR0cHM6Ly93d3cu/bXVuZG9pbWFnZW5l/cy5tZS9ja2ZpbmRl/ci91c2VyZmlsZXMv/aW1hZ2VzL21lbWUt/ZmFjZWJvb2suanBn"><img src="https://img.search.brave.com/Ci3xCaH9Au5euFihYBOKXO74t6x8LQOnA7HuCWVrlw4/fit/1200/1200/ce/1/aHR0cHM6Ly9jZG4u/ZnJlZWxvZ292ZWN0/b3JzLm5ldC9zdmcw/NC9mYWNlYm9vay1s/b2dvLW5ldy0yMDE5/LnN2Zw.svg" alt="redes" /></a>
+                <button id="formulario" >registrarse</button>
+            </div>
+        </header>
+    </div>
+    <div class="cuerpo">
+        <div class="seccion" id="portada">
+            <main>
+                <div class="imagen_portada">
+                    <p><img id="imagen_portada" src="https://img.search.brave.com/5BhKDKOqKGM2zp5RsSpEueyJpXXcU7JvWI7ILdvGXQY/fit/1200/1200/ce/1/aHR0cHM6Ly9kaW1l/bnNpb25lc2NsdWIu/ZXMvd3AtY29udGVu/dC91cGxvYWRzLzIw/MTUvMDcvQVJHRU5U/SU5BLUJBUklMT0NI/RS1WSUFKRVMuanBn" alt="portada" /></p>
+                </div>
+                <div class="imagen_personal">
+                    <p><img id="imagen_personal" src="https://img.search.brave.com/wAWCE5Ng1k7URPArCwTO1W1TJV4hKV82aRx1alqPy1o/fit/600/600/ce/1/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS41NTg3/NDQ0MDguNzIyMy9w/cCw1MDR4NDk4LXBh/ZCw2MDB4NjAwLGY4/ZjhmOC51Mi5qcGc" alt="foto personal" /></p>
+                </div>
+                <div class="logo">
+                    <p><img id="logo" src=https://img.search.brave.com/z5QnwEOGZDCfYBAExB4YCdRGanCzQvP5Ld6sPk1qNEA/fit/590/431/ce/1/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E3L2E5/L2FlL2E3YTlhZTRi/MTY1NTMxYzk5MGVh/OWY5YzhlN2JjZjcz/LmpwZw /></p>
+                </div>
+                <div class="titulo">
+                    <h3 id= "nombre">nombre y apellido</h3>
+                </div>
+                <div class="texto">
+                    <p class="tit">titulo que se ejerce</p><br>
+                    <p class="lugar">lugar donde se esta actualmente</p>
+                </div>
+                <div class="botones">
+                    <button id="ventana_emergente">Tengo interés en</button>
+                    <button id="aniadir_seccion">Añadir sección</button>
+                    <button id="mas">Más</button>
+                </div>
+            </main>
+        </div>
+        <div class="seccion" id="presentacion">
+            <article>
+                <div class="titulo">
+                    <h3 id= "nombre">Acerca de</h3>
+                </div>
+                <div class="texto">
+                    <p class="detalle">Algo acerca de mi.</p>
+                </div>
+             </article>
+        </div>
+        <div class="seccion">
+            <div class="editables">
+                <div class="sub_secc" id="exp_edu">
+                    <article>
+                        <div class="titulo">
+                         <h3 id= "nombre">Experiencia</h3>
+                         <button class="crear">crear</button>
+                        </div>
+                        <div class="editable">
+                            <h3 class="titulo">Titulo del puesto</h3>
+                            <br>
+                            <p class="detalle">Empresa y detalle de jornada</p>
+                            <br>
+                            <p class="detalle">Años y lugar</p>
+                            <img class= "logo">
+                            <button class="eliminar">eliminar
+                            </button>
+                            <button class="editar">editar</button>
+                        </div>
+                        <div class="titulo">
+                            <h3 id= "nombre">Educación</h3>
+                            <button class="crear">crear</button>
+                        </div>
+                           <div class="editable">
+                               <h3 class="titulo">Instituto terciario</h3>
+                               <br>
+                               <p class="detalle"><p>Titulo o especialización,progreso</p>
+                               <br>
+                               <p class="detalle">Años y lugar</p>
+                               <img class= "logo">
+                               <button class="eliminar">eliminar
+                               </button>
+                               <button class="editar">editar</button>
+                           </div>
+                           <div class="editable">
+                                <h3 class="titulo">Secundario</h3>
+                                <p class="detalle">Titulo o especialización</p>
+                                <br>
+                                <p class="detalle">Años y lugar</p>
+                                <img class= "logo">
+                                <button class="eliminar">eliminar
+                                </button>
+                                <button class="editar">editar</button> 
+                    </article>
+                </div>
+                <div class="sub_secc" id="skill">
+                    <article>
+                        <div class="titulo">
+                            <h3 id= "nombre">Hard Skills & Soft Skills</h3>
+                            <button class="crear">crear</button>
+                        </div>
+                           <div class="editable">
+                               <p class="detalle"><p class="progreso1">Resolución de problemas</p>
+                               <br>
+                               <progress id="progreso1" max="100" value="70"> 70% </progress>
+                               <button class="eliminar">eliminar
+                               </button>
+                               <button class="editar">editar</button>
+                           </div>
+                           <div class="editable">
+                                <p class="detalle">Diseño de sistemas</p>
+                                <br>
+                                <progress id="progreso2" max="100" value="70"> 70% </progress>
+                                <img class= "logo">
+                                <button class="eliminar">eliminar
+                                </button>
+                                <button class="editar">editar</button>
+                           </div> 
+                    </article>
+                </div>
+                <div class="sub_secc" id="proyectos">
+                    <article> 
+                        <div class="titulo">
+                            <h3 id= "nombre">Proyectos</h3>
+                            <button class="crear">crear</button>
+                        </div>
+                           <div class="editable">
+                               <h3 class="titulo">Nombre del proyecto</h3>
+                               <p class="detalle"><p>Detalle del proyecto</p>
+                               <br>
+                               <button class="eliminar">eliminar
+                               </button>
+                               <button class="editar">editar</button>
+                           </div>
+                           <div class="editable">
+                                <h3 class="titulo">Nombre del proyecto</h3>
+                                <p class="detalle">Detalle del proyecto</p>
+                                <br>
+                                <button class="eliminar">eliminar
+                                </button>
+                                <button class="editar">editar</button>
+                    </article>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
